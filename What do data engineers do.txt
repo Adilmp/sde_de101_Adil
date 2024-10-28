@@ -1,0 +1,41 @@
+What do data engineers do
+
+Imagine that you are hired to enable data analytics; where would you start? How would you go about gathering requirements? Hint: Think backward from what the business may need
+
+### 1. **Understand Business Objectives and Key Decisions**
+
+- **Identify Business Goals**: Begin by engaging with key stakeholders (executives, managers) to understand the high-level business objectives. Ask questions such as, “What are the company’s main goals for this quarter/year?” or “What KPIs drive success in each department?”
+- **Define Strategic Decisions**: Determine what strategic decisions they need to make regularly. For instance, a retail company may focus on inventory optimization or customer retention, while a tech company may prioritize user engagement or feature adoption.
+
+### 2. **Work Backwards to Determine Analytical Needs**
+
+- **Identify Necessary Metrics**: Break down high-level goals into measurable KPIs. If a goal is improving customer satisfaction, the KPI could be Net Promoter Score (NPS) or customer churn rate.
+- **Pinpoint Data Sources**: Determine what data is needed for each KPI. For customer satisfaction, you may need product usage data, customer service interactions, and survey results.
+- **Understand the Data Granularity and Frequency**: Ask how often these decisions are made and at what detail (daily, weekly, by department, by region). This helps in designing a data pipeline that matches the frequency and granularity required for decision-making.
+
+### 3. **Define User Personas and Requirements**
+
+- **Identify Different User Types**: Recognize that executives, analysts, and operational staff will have varied analytics needs. Executives may need high-level dashboards, while analysts may need raw data and detailed reports.
+- **Understand Use Cases**: For each user type, determine specific use cases. For instance, an executive may need a weekly overview of sales trends, while an analyst may need detailed transaction data to find factors affecting seasonal sales.
+
+### 4. **Assess Current Data Infrastructure and Gaps**
+
+- **Evaluate Existing Systems**: Review current data systems and structures to see if they can support the identified data requirements. Are data sources siloed? Are there integration challenges?
+- **Identify Data Gaps**: Determine what data isn’t currently collected or isn’t accessible and develop a plan to acquire or integrate these data sources.
+
+### 5. **Design Data Pipelines and Analytics Infrastructure**
+
+- **Data Collection**: Set up pipelines to pull data from various sources, ensuring it’s clean, consistent, and up-to-date.
+- **Data Storage and Access**: Design storage that aligns with the type of analysis needed. A data warehouse could be ideal for aggregated reporting, while a data lake may suit raw and unstructured data for more detailed analysis.
+- **Analytics and Reporting Tools**: Select tools that match the use cases (e.g., Power BI for dashboards, Jupyter notebooks for analysis). Ensure these tools allow non-technical users to access and manipulate the data easily.
+
+### 6. **Implement, Test, and Iterate**
+
+- **Build MVP Dashboards and Reports**: Develop initial reports and dashboards to test with stakeholders, ensuring they meet their requirements.
+- **Gather Feedback and Refine**: Iterate based on feedback, focusing on usability, accuracy, and relevance.
+- **Enable Self-Service Analytics**: Where possible, enable users to perform some analysis independently to reduce dependency on the data team.
+
+### 7. **Continuous Monitoring and Optimization**
+
+- **Monitor Usage and Quality**: Track how analytics tools are used, data quality issues, and identify any evolving needs.
+- **Optimize and Scale**: As analytics use grows, optimize infrastructure for efficiency and scalability.
